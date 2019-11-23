@@ -152,7 +152,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated" 
   linkerd: 
-    order: 8
+    order: 99
     active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
@@ -244,7 +244,7 @@ projects:
       - "amd64"
     cncf_relation: "Graduated"
   etcd:
-    order: 7
+    order: 8
     active: true
     logo_url: see above
     display_name: etcd
@@ -261,6 +261,24 @@ projects:
     arch:
       - "amd64"
   cncf_relation: "Incubating"
+  vitess:
+    order: 7
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/vitess/horizontal/color/vitess-horizontal-color.svg?sanitize=true"
+    display_name: Vitess
+    sub_title: Storage
+    gitlab_name: vitess
+    project_url: "https://github.com/vitessio/vitess"
+    repository_url: "https://github.com/vitessio/vitess"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/vitess-configuration"
+    timeout: 1200
+    stable_chart: "stable"
+    head_chart: "master"
+    app_layer: true
+    deploy: false
+    arch:
+      - "amd64"
+  cncf_relation: "Graduated"
   testproj: 
     order: 50
     active: true
